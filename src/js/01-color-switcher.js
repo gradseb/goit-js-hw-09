@@ -28,3 +28,5 @@ buttonStop.addEventListener("click", function() { // dodanie zdarzenia kliknięc
     buttonStart.disabled = false; // aktywuje sie przycisk Start po kliknięciu przysiku Stop
 clearTimeout(timerId); // zatrzymanie timera
 });
+
+console.log('first');
